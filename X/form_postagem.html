@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Nova Postagem</title>
+</head>
+<body>
+    <form action="salvar_postagem.php" method="post" enctype="multipart/form-data">
+        <label>E-mail:</label>
+        <input type="email" name="email"><br><br>
+        <label>Senha:</label>
+        <input type="password" name="senha"><br><br>
+        <label>Texto:</label>
+        <input type="text" name="txt"><br><br>
+        <label>Foto (Opcional):</label>
+        <input type="file" name="imagem" accept="image/*"><br><br>
+        <input type="submit" value="Postar">
+    </form>
+</body>
+</html>
